@@ -2,7 +2,7 @@
 
 namespace AcunMedyaAkademiBabyCare.ViewComponents
 {
-    public class _DefaultHeadComponetPartial:ViewComponent
+    public class _DefaultHeadComponentPartial:ViewComponent
     {
         public IViewComponentResult Invoke()
         {
