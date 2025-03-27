@@ -9,7 +9,7 @@
 </div>
 <div class="card-body">
     <div class="card-sub">
-       Branşlarla ilgşlş işlemleri buradan yapabilirsiniz.
+       Branşlarla ilgili işlemleri buradan yapabilirsiniz.
         
         
     </div>
@@ -29,7 +29,8 @@
                 <tr>
                     <td>@item.BranchId</td>
                     <td>@item.BranchName</td>
-                    <td>Sil</td>
+                    <td><a href="/Admin/Branch/DeleteBranch/@item.BranchId" class="btn btn-warning">Sil</a></td>
+                    <td><a href="/Admin/Branch/UpdateBranch/@item.BranchId" class="btn btn-success">Güncelle</a></td>
 
                 </tr>
             }
@@ -38,3 +39,4 @@
            
         </tbody>
     </table>
+    <a href="/Admin/Branch/CreateBranch/" class="btn btn-primary">Yeni Branş Girişi</a>
